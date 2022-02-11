@@ -1,0 +1,34 @@
+#tech-stacks{
+   background: linear-gradient(to top, #33ccff 0%, #ffffff 100%);
+   padding-top: 10%;
+   padding-bottom: 10%;
+}
+.tech-stack-header h1{
+  font-weight: bold;
+}
+.custom-btn{
+  /* background: #fff !important; */
+  border-radius: 0;
+  color: purple !important;
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+}
+
+#solana{
+  background-image: url(images/solana-logo.png);
+  background-size: cover;
+}
+
+
+@media only screen and (max-width: 576px){
+  .custom-btn{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem;
+  }
+  .tec-stack-container{
+    text-align: justify;
+  }
+}
